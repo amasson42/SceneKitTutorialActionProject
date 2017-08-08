@@ -1,0 +1,410 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameView"
+provides-nominal:
+- "C25ComeOneLetsGoAndPlay_mac_8GameView"
+provides-member:
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", ""]
+provides-dynamic-lookup:
+- "becomeFirstResponder"
+- "keyDelegate"
+- "keyDown"
+- "mouseDown"
+- "resignFirstResponder"
+depends-top-level:
+- !private "!="
+- "Bool"
+- !private "BooleanLiteralType"
+- "GameView"
+- "GameViewController"
+- "NSEvent"
+- "SCNView"
+- !private "StringLiteralType"
+- !private "Swift"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "Swift"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyCode"]
+- !private ["Ps9AnyObject", "keyDelegate"]
+- !private ["Ps9AnyObject", "locationInWindow"]
+- !private ["Ps9AnyObject", "mouseDown"]
+- !private ["Ps9AnyObject", "moveDown"]
+- !private ["Ps9AnyObject", "moveLeft"]
+- !private ["Ps9AnyObject", "moveRight"]
+- !private ["Ps9AnyObject", "moveUp"]
+- !private ["Ps9AnyObject", "touch"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Swift"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyCode"]
+- !private ["Ps7CVarArg", "keyDelegate"]
+- !private ["Ps7CVarArg", "locationInWindow"]
+- !private ["Ps7CVarArg", "mouseDown"]
+- !private ["Ps7CVarArg", "moveDown"]
+- !private ["Ps7CVarArg", "moveLeft"]
+- !private ["Ps7CVarArg", "moveRight"]
+- !private ["Ps7CVarArg", "moveUp"]
+- !private ["Ps7CVarArg", "touch"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Swift"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyCode"]
+- !private ["Ps28CustomDebugStringConvertible", "keyDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "locationInWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "mouseDown"]
+- !private ["Ps28CustomDebugStringConvertible", "moveDown"]
+- !private ["Ps28CustomDebugStringConvertible", "moveLeft"]
+- !private ["Ps28CustomDebugStringConvertible", "moveRight"]
+- !private ["Ps28CustomDebugStringConvertible", "moveUp"]
+- !private ["Ps28CustomDebugStringConvertible", "touch"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Swift"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyCode"]
+- !private ["Ps23CustomStringConvertible", "keyDelegate"]
+- !private ["Ps23CustomStringConvertible", "locationInWindow"]
+- !private ["Ps23CustomStringConvertible", "mouseDown"]
+- !private ["Ps23CustomStringConvertible", "moveDown"]
+- !private ["Ps23CustomStringConvertible", "moveLeft"]
+- !private ["Ps23CustomStringConvertible", "moveRight"]
+- !private ["Ps23CustomStringConvertible", "moveUp"]
+- !private ["Ps23CustomStringConvertible", "touch"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Swift"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyCode"]
+- !private ["Ps9Equatable", "keyDelegate"]
+- !private ["Ps9Equatable", "locationInWindow"]
+- !private ["Ps9Equatable", "mouseDown"]
+- !private ["Ps9Equatable", "moveDown"]
+- !private ["Ps9Equatable", "moveLeft"]
+- !private ["Ps9Equatable", "moveRight"]
+- !private ["Ps9Equatable", "moveUp"]
+- !private ["Ps9Equatable", "touch"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "Bool"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "GameViewController"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "NSEvent"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_8GameView", "Swift"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "becomeFirstResponder"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "deinit"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "init"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "keyDelegate"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "keyDown"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "mouseDown"]
+- ["C25ComeOneLetsGoAndPlay_mac_8GameView", "resignFirstResponder"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "deinit"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveDown"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveLeft"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveRight"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveUp"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "touch"]
+- !private ["Ps8Hashable", "Swift"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyCode"]
+- !private ["Ps8Hashable", "keyDelegate"]
+- !private ["Ps8Hashable", "locationInWindow"]
+- !private ["Ps8Hashable", "mouseDown"]
+- !private ["Ps8Hashable", "moveDown"]
+- !private ["Ps8Hashable", "moveLeft"]
+- !private ["Ps8Hashable", "moveRight"]
+- !private ["Ps8Hashable", "moveUp"]
+- !private ["Ps8Hashable", "touch"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo15NSAccessibility", "Swift"]
+- !private ["PSo15NSAccessibility", "init"]
+- !private ["PSo15NSAccessibility", "keyDelegate"]
+- !private ["PSo15NSAccessibility", "mouseDown"]
+- ["PSo15NSAccessibility", ""]
+- !private ["PSo30NSAccessibilityElementProtocol", "Swift"]
+- !private ["PSo30NSAccessibilityElementProtocol", "init"]
+- !private ["PSo30NSAccessibilityElementProtocol", "keyDelegate"]
+- !private ["PSo30NSAccessibilityElementProtocol", "mouseDown"]
+- ["PSo30NSAccessibilityElementProtocol", ""]
+- !private ["PSo29NSAnimatablePropertyContainer", "Swift"]
+- !private ["PSo29NSAnimatablePropertyContainer", "init"]
+- !private ["PSo29NSAnimatablePropertyContainer", "keyDelegate"]
+- !private ["PSo29NSAnimatablePropertyContainer", "mouseDown"]
+- ["PSo29NSAnimatablePropertyContainer", ""]
+- !private ["PSo25NSAppearanceCustomization", "Swift"]
+- !private ["PSo25NSAppearanceCustomization", "init"]
+- !private ["PSo25NSAppearanceCustomization", "keyDelegate"]
+- !private ["PSo25NSAppearanceCustomization", "mouseDown"]
+- ["PSo25NSAppearanceCustomization", ""]
+- !private ["PSo8NSCoding", "Swift"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "keyCode"]
+- !private ["PSo8NSCoding", "keyDelegate"]
+- !private ["PSo8NSCoding", "locationInWindow"]
+- !private ["PSo8NSCoding", "mouseDown"]
+- !private ["PSo8NSCoding", "moveDown"]
+- !private ["PSo8NSCoding", "moveLeft"]
+- !private ["PSo8NSCoding", "moveRight"]
+- !private ["PSo8NSCoding", "moveUp"]
+- !private ["PSo8NSCoding", "touch"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "keyCode"]
+- !private ["PSo9NSCopying", "locationInWindow"]
+- !private ["PSo21NSDraggingDestination", "Swift"]
+- !private ["PSo21NSDraggingDestination", "init"]
+- !private ["PSo21NSDraggingDestination", "keyDelegate"]
+- !private ["PSo21NSDraggingDestination", "mouseDown"]
+- ["PSo21NSDraggingDestination", ""]
+- !private ["CSo7NSEvent", "keyCode"]
+- !private ["CSo7NSEvent", "locationInWindow"]
+- !private ["PSo26NSExtensionRequestHandling", "moveDown"]
+- !private ["PSo26NSExtensionRequestHandling", "moveLeft"]
+- !private ["PSo26NSExtensionRequestHandling", "moveRight"]
+- !private ["PSo26NSExtensionRequestHandling", "moveUp"]
+- !private ["PSo26NSExtensionRequestHandling", "touch"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "GameViewController"]
+- ["CSo8NSObject", "NSEvent"]
+- !private ["CSo8NSObject", "Swift"]
+- ["CSo8NSObject", "becomeFirstResponder"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyCode"]
+- ["CSo8NSObject", "keyDelegate"]
+- ["CSo8NSObject", "keyDown"]
+- !private ["CSo8NSObject", "locationInWindow"]
+- ["CSo8NSObject", "mouseDown"]
+- !private ["CSo8NSObject", "moveDown"]
+- !private ["CSo8NSObject", "moveLeft"]
+- !private ["CSo8NSObject", "moveRight"]
+- !private ["CSo8NSObject", "moveUp"]
+- ["CSo8NSObject", "resignFirstResponder"]
+- !private ["CSo8NSObject", "touch"]
+- !private ["PSo16NSObjectProtocol", "Swift"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyCode"]
+- !private ["PSo16NSObjectProtocol", "keyDelegate"]
+- !private ["PSo16NSObjectProtocol", "locationInWindow"]
+- !private ["PSo16NSObjectProtocol", "mouseDown"]
+- !private ["PSo16NSObjectProtocol", "moveDown"]
+- !private ["PSo16NSObjectProtocol", "moveLeft"]
+- !private ["PSo16NSObjectProtocol", "moveRight"]
+- !private ["PSo16NSObjectProtocol", "moveUp"]
+- !private ["PSo16NSObjectProtocol", "touch"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- ["CSo11NSResponder", "Bool"]
+- ["CSo11NSResponder", "GameViewController"]
+- ["CSo11NSResponder", "NSEvent"]
+- !private ["CSo11NSResponder", "Swift"]
+- ["CSo11NSResponder", "becomeFirstResponder"]
+- ["CSo11NSResponder", "init"]
+- ["CSo11NSResponder", "keyDelegate"]
+- ["CSo11NSResponder", "keyDown"]
+- ["CSo11NSResponder", "mouseDown"]
+- !private ["CSo11NSResponder", "moveDown"]
+- !private ["CSo11NSResponder", "moveLeft"]
+- !private ["CSo11NSResponder", "moveRight"]
+- !private ["CSo11NSResponder", "moveUp"]
+- ["CSo11NSResponder", "resignFirstResponder"]
+- !private ["CSo11NSResponder", "touch"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo17NSSeguePerforming", "moveDown"]
+- !private ["PSo17NSSeguePerforming", "moveLeft"]
+- !private ["PSo17NSSeguePerforming", "moveRight"]
+- !private ["PSo17NSSeguePerforming", "moveUp"]
+- !private ["PSo17NSSeguePerforming", "touch"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSo18NSTouchBarProvider", "Swift"]
+- !private ["PSo18NSTouchBarProvider", "init"]
+- !private ["PSo18NSTouchBarProvider", "keyDelegate"]
+- !private ["PSo18NSTouchBarProvider", "mouseDown"]
+- !private ["PSo18NSTouchBarProvider", "moveDown"]
+- !private ["PSo18NSTouchBarProvider", "moveLeft"]
+- !private ["PSo18NSTouchBarProvider", "moveRight"]
+- !private ["PSo18NSTouchBarProvider", "moveUp"]
+- !private ["PSo18NSTouchBarProvider", "touch"]
+- ["PSo18NSTouchBarProvider", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "Swift"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "keyDelegate"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "mouseDown"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "moveDown"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "moveLeft"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "moveRight"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "moveUp"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "touch"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- ["CSo6NSView", "Bool"]
+- ["CSo6NSView", "GameViewController"]
+- ["CSo6NSView", "NSEvent"]
+- !private ["CSo6NSView", "Swift"]
+- ["CSo6NSView", "becomeFirstResponder"]
+- ["CSo6NSView", "init"]
+- ["CSo6NSView", "keyDelegate"]
+- ["CSo6NSView", "keyDown"]
+- ["CSo6NSView", "mouseDown"]
+- ["CSo6NSView", "resignFirstResponder"]
+- !private ["CSo16NSViewController", "moveDown"]
+- !private ["CSo16NSViewController", "moveLeft"]
+- !private ["CSo16NSViewController", "moveRight"]
+- !private ["CSo16NSViewController", "moveUp"]
+- !private ["CSo16NSViewController", "touch"]
+- !private ["PSo16SCNSceneRenderer", "Swift"]
+- !private ["PSo16SCNSceneRenderer", "init"]
+- !private ["PSo16SCNSceneRenderer", "keyDelegate"]
+- !private ["PSo16SCNSceneRenderer", "mouseDown"]
+- ["PSo16SCNSceneRenderer", ""]
+- !private ["PSo24SCNSceneRendererDelegate", "moveDown"]
+- !private ["PSo24SCNSceneRendererDelegate", "moveLeft"]
+- !private ["PSo24SCNSceneRendererDelegate", "moveRight"]
+- !private ["PSo24SCNSceneRendererDelegate", "moveUp"]
+- !private ["PSo24SCNSceneRendererDelegate", "touch"]
+- !private ["PSo19SCNTechniqueSupport", "Swift"]
+- !private ["PSo19SCNTechniqueSupport", "init"]
+- !private ["PSo19SCNTechniqueSupport", "keyDelegate"]
+- !private ["PSo19SCNTechniqueSupport", "mouseDown"]
+- ["PSo19SCNTechniqueSupport", ""]
+- ["CSo7SCNView", "Bool"]
+- ["CSo7SCNView", "GameViewController"]
+- ["CSo7SCNView", "NSEvent"]
+- !private ["CSo7SCNView", "Swift"]
+- ["CSo7SCNView", "becomeFirstResponder"]
+- ["CSo7SCNView", "init"]
+- ["CSo7SCNView", "keyDelegate"]
+- ["CSo7SCNView", "keyDown"]
+- ["CSo7SCNView", "mouseDown"]
+- ["CSo7SCNView", "resignFirstResponder"]
+- ["CSo7SCNView", ""]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Swift"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "keyDelegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "mouseDown"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Swift"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyCode"]
+- !private ["Ps9_Hashable", "keyDelegate"]
+- !private ["Ps9_Hashable", "locationInWindow"]
+- !private ["Ps9_Hashable", "mouseDown"]
+- !private ["Ps9_Hashable", "moveDown"]
+- !private ["Ps9_Hashable", "moveLeft"]
+- !private ["Ps9_Hashable", "moveRight"]
+- !private ["Ps9_Hashable", "moveUp"]
+- !private ["Ps9_Hashable", "touch"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C25ComeOneLetsGoAndPlay_mac_8GameView"
+- !private "C25ComeOneLetsGoAndPlay_mac_18GameViewController"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo15NSAccessibility"
+- "PSo30NSAccessibilityElementProtocol"
+- "PSo29NSAnimatablePropertyContainer"
+- "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo21NSDraggingDestination"
+- !private "CSo7NSEvent"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- !private "PSo17NSSeguePerforming"
+- !private "CSo8NSString"
+- "PSo18NSTouchBarProvider"
+- "PSo33NSUserInterfaceItemIdentification"
+- "CSo6NSView"
+- !private "CSo16NSViewController"
+- "PSo16SCNSceneRenderer"
+- !private "PSo24SCNSceneRendererDelegate"
+- "PSo19SCNTechniqueSupport"
+- "CSo7SCNView"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "07d876597ceb5439daa4541358257335"

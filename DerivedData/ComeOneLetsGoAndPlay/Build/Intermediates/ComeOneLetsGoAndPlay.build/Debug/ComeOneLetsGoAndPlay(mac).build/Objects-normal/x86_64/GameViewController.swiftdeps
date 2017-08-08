@@ -1,0 +1,776 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+- "GameViewController"
+provides-nominal:
+- "C25ComeOneLetsGoAndPlay_mac_18GameViewController"
+provides-member:
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", ""]
+provides-dynamic-lookup:
+- "followCameraNode"
+- "followLightNode"
+- "gameScene"
+- "gameView"
+- "heroNode"
+- "moveDown"
+- "moveLeft"
+- "moveRight"
+- "moveUp"
+- "renderer"
+- "setupNodes"
+- "touch"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- "CastingPrecedence"
+- "GameView"
+- "GameViewController"
+- "NSViewController"
+- !private "SCNAction"
+- "SCNNode"
+- "SCNScene"
+- "SCNSceneRenderer"
+- "SCNSceneRendererDelegate"
+- !private "SCNVector3"
+- !private "SCNView"
+- !private "StringLiteralType"
+- !private "Swift"
+- "TimeInterval"
+- "ViewController"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "pi"]
+- !private ["Ps9AnyObject", "SCNAction"]
+- !private ["Ps9AnyObject", "SCNScene"]
+- !private ["Ps9AnyObject", "SCNVector3"]
+- !private ["Ps9AnyObject", "Swift"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "allowsCameraControl"]
+- !private ["Ps9AnyObject", "childNode"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "followCameraNode"]
+- !private ["Ps9AnyObject", "followLightNode"]
+- !private ["Ps9AnyObject", "gameScene"]
+- !private ["Ps9AnyObject", "gameView"]
+- !private ["Ps9AnyObject", "group"]
+- !private ["Ps9AnyObject", "heroNode"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyDelegate"]
+- !private ["Ps9AnyObject", "move"]
+- !private ["Ps9AnyObject", "position"]
+- ["Ps9AnyObject", "renderer"]
+- !private ["Ps9AnyObject", "rootNode"]
+- !private ["Ps9AnyObject", "rotateTo"]
+- !private ["Ps9AnyObject", "runAction"]
+- !private ["Ps9AnyObject", "scene"]
+- !private ["Ps9AnyObject", "sequence"]
+- !private ["Ps9AnyObject", "setupNodes"]
+- !private ["Ps9AnyObject", "showsStatistics"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "pi"]
+- !private ["Ps7CVarArg", "SCNAction"]
+- !private ["Ps7CVarArg", "SCNScene"]
+- !private ["Ps7CVarArg", "SCNVector3"]
+- !private ["Ps7CVarArg", "Swift"]
+- !private ["Ps7CVarArg", "action"]
+- !private ["Ps7CVarArg", "allowsCameraControl"]
+- !private ["Ps7CVarArg", "childNode"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "followCameraNode"]
+- !private ["Ps7CVarArg", "followLightNode"]
+- !private ["Ps7CVarArg", "gameScene"]
+- !private ["Ps7CVarArg", "gameView"]
+- !private ["Ps7CVarArg", "group"]
+- !private ["Ps7CVarArg", "heroNode"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyDelegate"]
+- !private ["Ps7CVarArg", "move"]
+- !private ["Ps7CVarArg", "pi"]
+- !private ["Ps7CVarArg", "position"]
+- ["Ps7CVarArg", "renderer"]
+- !private ["Ps7CVarArg", "rootNode"]
+- !private ["Ps7CVarArg", "rotateTo"]
+- !private ["Ps7CVarArg", "runAction"]
+- !private ["Ps7CVarArg", "scene"]
+- !private ["Ps7CVarArg", "sequence"]
+- !private ["Ps7CVarArg", "setupNodes"]
+- !private ["Ps7CVarArg", "showsStatistics"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "SCNAction"]
+- !private ["Ps28CustomDebugStringConvertible", "SCNScene"]
+- !private ["Ps28CustomDebugStringConvertible", "SCNVector3"]
+- !private ["Ps28CustomDebugStringConvertible", "Swift"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "allowsCameraControl"]
+- !private ["Ps28CustomDebugStringConvertible", "childNode"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "followCameraNode"]
+- !private ["Ps28CustomDebugStringConvertible", "followLightNode"]
+- !private ["Ps28CustomDebugStringConvertible", "gameScene"]
+- !private ["Ps28CustomDebugStringConvertible", "gameView"]
+- !private ["Ps28CustomDebugStringConvertible", "group"]
+- !private ["Ps28CustomDebugStringConvertible", "heroNode"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "move"]
+- !private ["Ps28CustomDebugStringConvertible", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "position"]
+- ["Ps28CustomDebugStringConvertible", "renderer"]
+- !private ["Ps28CustomDebugStringConvertible", "rootNode"]
+- !private ["Ps28CustomDebugStringConvertible", "rotateTo"]
+- !private ["Ps28CustomDebugStringConvertible", "runAction"]
+- !private ["Ps28CustomDebugStringConvertible", "scene"]
+- !private ["Ps28CustomDebugStringConvertible", "sequence"]
+- !private ["Ps28CustomDebugStringConvertible", "setupNodes"]
+- !private ["Ps28CustomDebugStringConvertible", "showsStatistics"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pi"]
+- !private ["Ps23CustomStringConvertible", "SCNAction"]
+- !private ["Ps23CustomStringConvertible", "SCNScene"]
+- !private ["Ps23CustomStringConvertible", "SCNVector3"]
+- !private ["Ps23CustomStringConvertible", "Swift"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "action"]
+- !private ["Ps23CustomStringConvertible", "allowsCameraControl"]
+- !private ["Ps23CustomStringConvertible", "childNode"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "followCameraNode"]
+- !private ["Ps23CustomStringConvertible", "followLightNode"]
+- !private ["Ps23CustomStringConvertible", "gameScene"]
+- !private ["Ps23CustomStringConvertible", "gameView"]
+- !private ["Ps23CustomStringConvertible", "group"]
+- !private ["Ps23CustomStringConvertible", "heroNode"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyDelegate"]
+- !private ["Ps23CustomStringConvertible", "move"]
+- !private ["Ps23CustomStringConvertible", "pi"]
+- !private ["Ps23CustomStringConvertible", "position"]
+- ["Ps23CustomStringConvertible", "renderer"]
+- !private ["Ps23CustomStringConvertible", "rootNode"]
+- !private ["Ps23CustomStringConvertible", "rotateTo"]
+- !private ["Ps23CustomStringConvertible", "runAction"]
+- !private ["Ps23CustomStringConvertible", "scene"]
+- !private ["Ps23CustomStringConvertible", "sequence"]
+- !private ["Ps23CustomStringConvertible", "setupNodes"]
+- !private ["Ps23CustomStringConvertible", "showsStatistics"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "pi"]
+- !private ["Ps9Equatable", "SCNAction"]
+- !private ["Ps9Equatable", "SCNScene"]
+- !private ["Ps9Equatable", "SCNVector3"]
+- !private ["Ps9Equatable", "Swift"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "allowsCameraControl"]
+- !private ["Ps9Equatable", "childNode"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "followCameraNode"]
+- !private ["Ps9Equatable", "followLightNode"]
+- !private ["Ps9Equatable", "gameScene"]
+- !private ["Ps9Equatable", "gameView"]
+- !private ["Ps9Equatable", "group"]
+- !private ["Ps9Equatable", "heroNode"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyDelegate"]
+- !private ["Ps9Equatable", "move"]
+- !private ["Ps9Equatable", "pi"]
+- !private ["Ps9Equatable", "position"]
+- ["Ps9Equatable", "renderer"]
+- !private ["Ps9Equatable", "rootNode"]
+- !private ["Ps9Equatable", "rotateTo"]
+- !private ["Ps9Equatable", "runAction"]
+- !private ["Ps9Equatable", "scene"]
+- !private ["Ps9Equatable", "sequence"]
+- !private ["Ps9Equatable", "setupNodes"]
+- !private ["Ps9Equatable", "showsStatistics"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "pi"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "pi"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_8GameView", "keyDelegate"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "CGPoint"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "GameView"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNAction"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNNode"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNScene"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNSceneRenderer"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNVector3"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "SCNView"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "Swift"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "TimeInterval"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "deinit"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "followCameraNode"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "followLightNode"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "gameScene"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "gameView"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "heroNode"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "init"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveDown"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveLeft"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveRight"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "moveUp"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "renderer"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "setupNodes"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "touch"]
+- !private ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "view"]
+- ["C25ComeOneLetsGoAndPlay_mac_18GameViewController", "viewDidLoad"]
+- !private ["Ps8Hashable", "SCNAction"]
+- !private ["Ps8Hashable", "SCNScene"]
+- !private ["Ps8Hashable", "SCNVector3"]
+- !private ["Ps8Hashable", "Swift"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "allowsCameraControl"]
+- !private ["Ps8Hashable", "childNode"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "followCameraNode"]
+- !private ["Ps8Hashable", "followLightNode"]
+- !private ["Ps8Hashable", "gameScene"]
+- !private ["Ps8Hashable", "gameView"]
+- !private ["Ps8Hashable", "group"]
+- !private ["Ps8Hashable", "heroNode"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyDelegate"]
+- !private ["Ps8Hashable", "move"]
+- !private ["Ps8Hashable", "pi"]
+- !private ["Ps8Hashable", "position"]
+- ["Ps8Hashable", "renderer"]
+- !private ["Ps8Hashable", "rootNode"]
+- !private ["Ps8Hashable", "rotateTo"]
+- !private ["Ps8Hashable", "runAction"]
+- !private ["Ps8Hashable", "scene"]
+- !private ["Ps8Hashable", "sequence"]
+- !private ["Ps8Hashable", "setupNodes"]
+- !private ["Ps8Hashable", "showsStatistics"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "pi"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo15NSAccessibility", "allowsCameraControl"]
+- !private ["PSo15NSAccessibility", "delegate"]
+- !private ["PSo15NSAccessibility", "keyDelegate"]
+- !private ["PSo15NSAccessibility", "scene"]
+- !private ["PSo15NSAccessibility", "showsStatistics"]
+- !private ["PSo30NSAccessibilityElementProtocol", "allowsCameraControl"]
+- !private ["PSo30NSAccessibilityElementProtocol", "delegate"]
+- !private ["PSo30NSAccessibilityElementProtocol", "keyDelegate"]
+- !private ["PSo30NSAccessibilityElementProtocol", "scene"]
+- !private ["PSo30NSAccessibilityElementProtocol", "showsStatistics"]
+- !private ["PSo29NSAnimatablePropertyContainer", "allowsCameraControl"]
+- !private ["PSo29NSAnimatablePropertyContainer", "delegate"]
+- !private ["PSo29NSAnimatablePropertyContainer", "keyDelegate"]
+- !private ["PSo29NSAnimatablePropertyContainer", "scene"]
+- !private ["PSo29NSAnimatablePropertyContainer", "showsStatistics"]
+- !private ["PSo25NSAppearanceCustomization", "allowsCameraControl"]
+- !private ["PSo25NSAppearanceCustomization", "delegate"]
+- !private ["PSo25NSAppearanceCustomization", "keyDelegate"]
+- !private ["PSo25NSAppearanceCustomization", "scene"]
+- !private ["PSo25NSAppearanceCustomization", "showsStatistics"]
+- !private ["PSo8NSCoding", "SCNAction"]
+- !private ["PSo8NSCoding", "SCNScene"]
+- !private ["PSo8NSCoding", "SCNVector3"]
+- !private ["PSo8NSCoding", "Swift"]
+- !private ["PSo8NSCoding", "action"]
+- !private ["PSo8NSCoding", "allowsCameraControl"]
+- !private ["PSo8NSCoding", "childNode"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "followCameraNode"]
+- !private ["PSo8NSCoding", "followLightNode"]
+- !private ["PSo8NSCoding", "gameScene"]
+- !private ["PSo8NSCoding", "gameView"]
+- !private ["PSo8NSCoding", "group"]
+- !private ["PSo8NSCoding", "heroNode"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "keyDelegate"]
+- !private ["PSo8NSCoding", "move"]
+- !private ["PSo8NSCoding", "position"]
+- ["PSo8NSCoding", "renderer"]
+- !private ["PSo8NSCoding", "rootNode"]
+- !private ["PSo8NSCoding", "rotateTo"]
+- !private ["PSo8NSCoding", "runAction"]
+- !private ["PSo8NSCoding", "scene"]
+- !private ["PSo8NSCoding", "sequence"]
+- !private ["PSo8NSCoding", "setupNodes"]
+- !private ["PSo8NSCoding", "showsStatistics"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "action"]
+- !private ["PSo9NSCopying", "childNode"]
+- !private ["PSo9NSCopying", "group"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "move"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo9NSCopying", "rotateTo"]
+- !private ["PSo9NSCopying", "runAction"]
+- !private ["PSo9NSCopying", "sequence"]
+- !private ["PSo21NSDraggingDestination", "allowsCameraControl"]
+- !private ["PSo21NSDraggingDestination", "delegate"]
+- !private ["PSo21NSDraggingDestination", "keyDelegate"]
+- !private ["PSo21NSDraggingDestination", "scene"]
+- !private ["PSo21NSDraggingDestination", "showsStatistics"]
+- !private ["PSo26NSExtensionRequestHandling", "SCNAction"]
+- !private ["PSo26NSExtensionRequestHandling", "SCNScene"]
+- !private ["PSo26NSExtensionRequestHandling", "SCNVector3"]
+- !private ["PSo26NSExtensionRequestHandling", "Swift"]
+- !private ["PSo26NSExtensionRequestHandling", "followCameraNode"]
+- !private ["PSo26NSExtensionRequestHandling", "followLightNode"]
+- !private ["PSo26NSExtensionRequestHandling", "gameScene"]
+- !private ["PSo26NSExtensionRequestHandling", "gameView"]
+- !private ["PSo26NSExtensionRequestHandling", "heroNode"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "renderer"]
+- !private ["PSo26NSExtensionRequestHandling", "setupNodes"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "GameView"]
+- !private ["CSo8NSObject", "SCNAction"]
+- ["CSo8NSObject", "SCNNode"]
+- ["CSo8NSObject", "SCNScene"]
+- ["CSo8NSObject", "SCNSceneRenderer"]
+- !private ["CSo8NSObject", "SCNVector3"]
+- !private ["CSo8NSObject", "SCNView"]
+- !private ["CSo8NSObject", "Swift"]
+- ["CSo8NSObject", "TimeInterval"]
+- !private ["CSo8NSObject", "action"]
+- !private ["CSo8NSObject", "allowsCameraControl"]
+- !private ["CSo8NSObject", "childNode"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "followCameraNode"]
+- ["CSo8NSObject", "followLightNode"]
+- ["CSo8NSObject", "gameScene"]
+- ["CSo8NSObject", "gameView"]
+- !private ["CSo8NSObject", "group"]
+- ["CSo8NSObject", "heroNode"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyDelegate"]
+- !private ["CSo8NSObject", "move"]
+- ["CSo8NSObject", "moveDown"]
+- ["CSo8NSObject", "moveLeft"]
+- ["CSo8NSObject", "moveRight"]
+- ["CSo8NSObject", "moveUp"]
+- !private ["CSo8NSObject", "position"]
+- ["CSo8NSObject", "renderer"]
+- !private ["CSo8NSObject", "rootNode"]
+- !private ["CSo8NSObject", "rotateTo"]
+- !private ["CSo8NSObject", "runAction"]
+- !private ["CSo8NSObject", "scene"]
+- !private ["CSo8NSObject", "sequence"]
+- ["CSo8NSObject", "setupNodes"]
+- !private ["CSo8NSObject", "showsStatistics"]
+- ["CSo8NSObject", "touch"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "SCNAction"]
+- !private ["PSo16NSObjectProtocol", "SCNScene"]
+- !private ["PSo16NSObjectProtocol", "SCNVector3"]
+- !private ["PSo16NSObjectProtocol", "Swift"]
+- !private ["PSo16NSObjectProtocol", "action"]
+- !private ["PSo16NSObjectProtocol", "allowsCameraControl"]
+- !private ["PSo16NSObjectProtocol", "childNode"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "followCameraNode"]
+- !private ["PSo16NSObjectProtocol", "followLightNode"]
+- !private ["PSo16NSObjectProtocol", "gameScene"]
+- !private ["PSo16NSObjectProtocol", "gameView"]
+- !private ["PSo16NSObjectProtocol", "group"]
+- !private ["PSo16NSObjectProtocol", "heroNode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyDelegate"]
+- !private ["PSo16NSObjectProtocol", "move"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- ["PSo16NSObjectProtocol", "renderer"]
+- !private ["PSo16NSObjectProtocol", "rootNode"]
+- !private ["PSo16NSObjectProtocol", "rotateTo"]
+- !private ["PSo16NSObjectProtocol", "runAction"]
+- !private ["PSo16NSObjectProtocol", "scene"]
+- !private ["PSo16NSObjectProtocol", "sequence"]
+- !private ["PSo16NSObjectProtocol", "setupNodes"]
+- !private ["PSo16NSObjectProtocol", "showsStatistics"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- ["CSo11NSResponder", "CGPoint"]
+- ["CSo11NSResponder", "GameView"]
+- !private ["CSo11NSResponder", "SCNAction"]
+- ["CSo11NSResponder", "SCNNode"]
+- ["CSo11NSResponder", "SCNScene"]
+- ["CSo11NSResponder", "SCNSceneRenderer"]
+- !private ["CSo11NSResponder", "SCNVector3"]
+- !private ["CSo11NSResponder", "SCNView"]
+- !private ["CSo11NSResponder", "Swift"]
+- ["CSo11NSResponder", "TimeInterval"]
+- !private ["CSo11NSResponder", "allowsCameraControl"]
+- !private ["CSo11NSResponder", "delegate"]
+- ["CSo11NSResponder", "followCameraNode"]
+- ["CSo11NSResponder", "followLightNode"]
+- ["CSo11NSResponder", "gameScene"]
+- ["CSo11NSResponder", "gameView"]
+- ["CSo11NSResponder", "heroNode"]
+- ["CSo11NSResponder", "init"]
+- !private ["CSo11NSResponder", "keyDelegate"]
+- ["CSo11NSResponder", "moveDown"]
+- ["CSo11NSResponder", "moveLeft"]
+- ["CSo11NSResponder", "moveRight"]
+- ["CSo11NSResponder", "moveUp"]
+- ["CSo11NSResponder", "renderer"]
+- !private ["CSo11NSResponder", "scene"]
+- ["CSo11NSResponder", "setupNodes"]
+- !private ["CSo11NSResponder", "showsStatistics"]
+- ["CSo11NSResponder", "touch"]
+- !private ["CSo11NSResponder", "view"]
+- ["CSo11NSResponder", "viewDidLoad"]
+- !private ["PSo14NSSecureCoding", "action"]
+- !private ["PSo14NSSecureCoding", "childNode"]
+- !private ["PSo14NSSecureCoding", "group"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "move"]
+- !private ["PSo14NSSecureCoding", "position"]
+- !private ["PSo14NSSecureCoding", "rootNode"]
+- !private ["PSo14NSSecureCoding", "rotateTo"]
+- !private ["PSo14NSSecureCoding", "runAction"]
+- !private ["PSo14NSSecureCoding", "sequence"]
+- !private ["PSo17NSSeguePerforming", "SCNAction"]
+- !private ["PSo17NSSeguePerforming", "SCNScene"]
+- !private ["PSo17NSSeguePerforming", "SCNVector3"]
+- !private ["PSo17NSSeguePerforming", "Swift"]
+- !private ["PSo17NSSeguePerforming", "followCameraNode"]
+- !private ["PSo17NSSeguePerforming", "followLightNode"]
+- !private ["PSo17NSSeguePerforming", "gameScene"]
+- !private ["PSo17NSSeguePerforming", "gameView"]
+- !private ["PSo17NSSeguePerforming", "heroNode"]
+- !private ["PSo17NSSeguePerforming", "init"]
+- ["PSo17NSSeguePerforming", "renderer"]
+- !private ["PSo17NSSeguePerforming", "setupNodes"]
+- !private ["PSo17NSSeguePerforming", "view"]
+- !private ["PSo17NSSeguePerforming", "viewDidLoad"]
+- ["PSo17NSSeguePerforming", ""]
+- !private ["CSo8NSString", "init"]
+- !private ["PSo18NSTouchBarProvider", "SCNAction"]
+- !private ["PSo18NSTouchBarProvider", "SCNScene"]
+- !private ["PSo18NSTouchBarProvider", "SCNVector3"]
+- !private ["PSo18NSTouchBarProvider", "Swift"]
+- !private ["PSo18NSTouchBarProvider", "allowsCameraControl"]
+- !private ["PSo18NSTouchBarProvider", "delegate"]
+- !private ["PSo18NSTouchBarProvider", "followCameraNode"]
+- !private ["PSo18NSTouchBarProvider", "followLightNode"]
+- !private ["PSo18NSTouchBarProvider", "gameScene"]
+- !private ["PSo18NSTouchBarProvider", "gameView"]
+- !private ["PSo18NSTouchBarProvider", "heroNode"]
+- !private ["PSo18NSTouchBarProvider", "init"]
+- !private ["PSo18NSTouchBarProvider", "keyDelegate"]
+- ["PSo18NSTouchBarProvider", "renderer"]
+- !private ["PSo18NSTouchBarProvider", "scene"]
+- !private ["PSo18NSTouchBarProvider", "setupNodes"]
+- !private ["PSo18NSTouchBarProvider", "showsStatistics"]
+- !private ["PSo18NSTouchBarProvider", "view"]
+- !private ["PSo18NSTouchBarProvider", "viewDidLoad"]
+- ["PSo18NSTouchBarProvider", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "SCNAction"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "SCNScene"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "SCNVector3"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "Swift"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "allowsCameraControl"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "delegate"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "followCameraNode"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "followLightNode"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "gameScene"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "gameView"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "heroNode"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "keyDelegate"]
+- ["PSo33NSUserInterfaceItemIdentification", "renderer"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "scene"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "setupNodes"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "showsStatistics"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "view"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "viewDidLoad"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- !private ["CSo6NSView", "allowsCameraControl"]
+- !private ["CSo6NSView", "delegate"]
+- !private ["CSo6NSView", "keyDelegate"]
+- !private ["CSo6NSView", "scene"]
+- !private ["CSo6NSView", "showsStatistics"]
+- ["CSo16NSViewController", "CGPoint"]
+- ["CSo16NSViewController", "GameView"]
+- !private ["CSo16NSViewController", "SCNAction"]
+- ["CSo16NSViewController", "SCNNode"]
+- ["CSo16NSViewController", "SCNScene"]
+- ["CSo16NSViewController", "SCNSceneRenderer"]
+- !private ["CSo16NSViewController", "SCNVector3"]
+- !private ["CSo16NSViewController", "SCNView"]
+- !private ["CSo16NSViewController", "Swift"]
+- ["CSo16NSViewController", "TimeInterval"]
+- ["CSo16NSViewController", "followCameraNode"]
+- ["CSo16NSViewController", "followLightNode"]
+- ["CSo16NSViewController", "gameScene"]
+- ["CSo16NSViewController", "gameView"]
+- ["CSo16NSViewController", "heroNode"]
+- ["CSo16NSViewController", "init"]
+- ["CSo16NSViewController", "moveDown"]
+- ["CSo16NSViewController", "moveLeft"]
+- ["CSo16NSViewController", "moveRight"]
+- ["CSo16NSViewController", "moveUp"]
+- ["CSo16NSViewController", "renderer"]
+- ["CSo16NSViewController", "setupNodes"]
+- ["CSo16NSViewController", "touch"]
+- !private ["CSo16NSViewController", "view"]
+- ["CSo16NSViewController", "viewDidLoad"]
+- ["CSo16NSViewController", ""]
+- !private ["CSo9SCNAction", "group"]
+- !private ["CSo9SCNAction", "move"]
+- !private ["CSo9SCNAction", "rotateTo"]
+- !private ["CSo9SCNAction", "sequence"]
+- !private ["PSo13SCNActionable", "action"]
+- !private ["PSo13SCNActionable", "childNode"]
+- !private ["PSo13SCNActionable", "position"]
+- !private ["PSo13SCNActionable", "runAction"]
+- !private ["PSo13SCNAnimatable", "action"]
+- !private ["PSo13SCNAnimatable", "childNode"]
+- !private ["PSo13SCNAnimatable", "position"]
+- !private ["PSo13SCNAnimatable", "runAction"]
+- !private ["PSo17SCNBoundingVolume", "action"]
+- !private ["PSo17SCNBoundingVolume", "childNode"]
+- !private ["PSo17SCNBoundingVolume", "position"]
+- !private ["PSo17SCNBoundingVolume", "runAction"]
+- !private ["CSo7SCNNode", "action"]
+- !private ["CSo7SCNNode", "childNode"]
+- !private ["CSo7SCNNode", "position"]
+- !private ["CSo7SCNNode", "runAction"]
+- !private ["CSo8SCNScene", "init"]
+- !private ["CSo8SCNScene", "rootNode"]
+- !private ["PSo16SCNSceneRenderer", "allowsCameraControl"]
+- !private ["PSo16SCNSceneRenderer", "delegate"]
+- !private ["PSo16SCNSceneRenderer", "keyDelegate"]
+- !private ["PSo16SCNSceneRenderer", "scene"]
+- !private ["PSo16SCNSceneRenderer", "showsStatistics"]
+- !private ["PSo24SCNSceneRendererDelegate", "SCNAction"]
+- !private ["PSo24SCNSceneRendererDelegate", "SCNScene"]
+- !private ["PSo24SCNSceneRendererDelegate", "SCNVector3"]
+- !private ["PSo24SCNSceneRendererDelegate", "Swift"]
+- !private ["PSo24SCNSceneRendererDelegate", "followCameraNode"]
+- !private ["PSo24SCNSceneRendererDelegate", "followLightNode"]
+- !private ["PSo24SCNSceneRendererDelegate", "gameScene"]
+- !private ["PSo24SCNSceneRendererDelegate", "gameView"]
+- !private ["PSo24SCNSceneRendererDelegate", "heroNode"]
+- ["PSo24SCNSceneRendererDelegate", "renderer"]
+- !private ["PSo24SCNSceneRendererDelegate", "setupNodes"]
+- !private ["PSo24SCNSceneRendererDelegate", "view"]
+- ["PSo24SCNSceneRendererDelegate", ""]
+- !private ["PSo19SCNTechniqueSupport", "allowsCameraControl"]
+- !private ["PSo19SCNTechniqueSupport", "delegate"]
+- !private ["PSo19SCNTechniqueSupport", "keyDelegate"]
+- !private ["PSo19SCNTechniqueSupport", "scene"]
+- !private ["PSo19SCNTechniqueSupport", "showsStatistics"]
+- !private ["VSC10SCNVector3", "init"]
+- !private ["VSC10SCNVector3", "x"]
+- !private ["VSC10SCNVector3", "z"]
+- !private ["CSo7SCNView", "allowsCameraControl"]
+- !private ["CSo7SCNView", "delegate"]
+- !private ["CSo7SCNView", "keyDelegate"]
+- !private ["CSo7SCNView", "scene"]
+- !private ["CSo7SCNView", "showsStatistics"]
+- !private ["Ps12SignedNumber", "pi"]
+- !private ["Ps10Strideable", "pi"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps15_CVarArgAligned", "pi"]
+- !private ["Ps22_CVarArgPassedAsDouble", "pi"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "allowsCameraControl"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "keyDelegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "scene"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "showsStatistics"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "SCNAction"]
+- !private ["Ps9_Hashable", "SCNScene"]
+- !private ["Ps9_Hashable", "SCNVector3"]
+- !private ["Ps9_Hashable", "Swift"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "action"]
+- !private ["Ps9_Hashable", "allowsCameraControl"]
+- !private ["Ps9_Hashable", "childNode"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "followCameraNode"]
+- !private ["Ps9_Hashable", "followLightNode"]
+- !private ["Ps9_Hashable", "gameScene"]
+- !private ["Ps9_Hashable", "gameView"]
+- !private ["Ps9_Hashable", "group"]
+- !private ["Ps9_Hashable", "heroNode"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyDelegate"]
+- !private ["Ps9_Hashable", "move"]
+- !private ["Ps9_Hashable", "pi"]
+- !private ["Ps9_Hashable", "position"]
+- ["Ps9_Hashable", "renderer"]
+- !private ["Ps9_Hashable", "rootNode"]
+- !private ["Ps9_Hashable", "rotateTo"]
+- !private ["Ps9_Hashable", "runAction"]
+- !private ["Ps9_Hashable", "scene"]
+- !private ["Ps9_Hashable", "sequence"]
+- !private ["Ps9_Hashable", "setupNodes"]
+- !private ["Ps9_Hashable", "showsStatistics"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "pi"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "z"]
+- !private ["Ps11_Strideable", "pi"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "C25ComeOneLetsGoAndPlay_mac_8GameView"
+- "C25ComeOneLetsGoAndPlay_mac_18GameViewController"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo21NSDraggingDestination"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- "PSo17NSSeguePerforming"
+- !private "CSo8NSString"
+- "PSo18NSTouchBarProvider"
+- "PSo33NSUserInterfaceItemIdentification"
+- !private "CSo6NSView"
+- "CSo16NSViewController"
+- !private "CSo9SCNAction"
+- !private "PSo13SCNActionable"
+- !private "PSo13SCNAnimatable"
+- !private "PSo17SCNBoundingVolume"
+- !private "CSo7SCNNode"
+- !private "CSo8SCNScene"
+- !private "PSo16SCNSceneRenderer"
+- "PSo24SCNSceneRendererDelegate"
+- !private "PSo19SCNTechniqueSupport"
+- !private "VSC10SCNVector3"
+- !private "CSo7SCNView"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "23db1fbb2c1f2498adb71dba1e376d1f"

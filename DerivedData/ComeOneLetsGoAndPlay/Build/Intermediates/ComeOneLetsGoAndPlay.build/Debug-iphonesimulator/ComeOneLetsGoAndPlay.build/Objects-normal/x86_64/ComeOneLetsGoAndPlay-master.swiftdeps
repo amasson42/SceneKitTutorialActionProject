@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5447e0ebe7df279fd52f8bf65ec2b231"
+build_time: [555442950, 624244000]
+inputs:
+  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/ComeOneLetsGoAndPlay/GameViewController.swift": [555440935, 0]
+  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/ComeOneLetsGoAndPlay/SetupGestureReconizers.swift": [555430099, 0]
+  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/ComeOneLetsGoAndPlay/AppDelegate.swift": [555416793, 0]
