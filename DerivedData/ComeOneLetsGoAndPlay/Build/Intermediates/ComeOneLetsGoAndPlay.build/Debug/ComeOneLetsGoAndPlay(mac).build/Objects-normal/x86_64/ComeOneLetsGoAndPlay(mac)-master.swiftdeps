@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "85ff47dbede5f012e1e76125a1ec2972"
-build_time: [555459891, 341945000]
-inputs:
-  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/ComeOneLetsGoAndPlay/GameViewController.swift": [555459891, 0]
-  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/GameView.swift": [555436172, 0]
-  "/Users/arthur/Documents/testProg/Xcode/ComeOneLetsGoAndPlay/ComeOneLetsGoAndPlay(mac)/AppDelegate.swift": [555425802, 0]
