@@ -19,8 +19,7 @@
 		8E2AB8E71F389B7300E689F1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AB8BB1F3877D900E689F1 /* art.scnassets */; };
 		8E2AB8E81F389BB200E689F1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AB8BD1F3877D900E689F1 /* GameViewController.swift */; };
 		8E2AB8ED1F38AB3D00E689F1 /* SetupGestureReconizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AB8EC1F38AB3D00E689F1 /* SetupGestureReconizers.swift */; };
-		8E5EFC691F3A5CD100AACB4C /* SCNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5EFC681F3A5CD100AACB4C /* SCNUtils.swift */; };
-		8E5EFC6A1F3A5E4C00AACB4C /* SCNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5EFC681F3A5CD100AACB4C /* SCNUtils.swift */; };
+		8E5EFC6C1F3A635800AACB4C /* SCNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5EFC6B1F3A635800AACB4C /* SCNUtils.swift */; };
 		8EBEAD2D1F39C52100054C95 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBEAD2C1F39C52100054C95 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,7 @@
 		8E2AB8E01F389B0A00E689F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8E2AB8E21F389B0A00E689F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E2AB8EC1F38AB3D00E689F1 /* SetupGestureReconizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupGestureReconizers.swift; sourceTree = "<group>"; };
-		8E5EFC681F3A5CD100AACB4C /* SCNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNUtils.swift; sourceTree = "<group>"; };
+		8E5EFC6B1F3A635800AACB4C /* SCNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCNUtils.swift; path = ComeOneLetsGoAndPlay/SCNUtils.swift; sourceTree = "<group>"; };
 		8EBEAD2C1F39C52100054C95 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2AB8BD1F3877D900E689F1 /* GameViewController.swift */,
-				8E5EFC681F3A5CD100AACB4C /* SCNUtils.swift */,
+				8E5EFC6B1F3A635800AACB4C /* SCNUtils.swift */,
 				8E2AB8BB1F3877D900E689F1 /* art.scnassets */,
 			);
 			name = Commun;
@@ -224,8 +223,8 @@
 			files = (
 				8E2AB8BE1F3877D900E689F1 /* GameViewController.swift in Sources */,
 				8E2AB8ED1F38AB3D00E689F1 /* SetupGestureReconizers.swift in Sources */,
-				8E5EFC691F3A5CD100AACB4C /* SCNUtils.swift in Sources */,
 				8E2AB8BA1F3877D900E689F1 /* AppDelegate.swift in Sources */,
+				8E5EFC6C1F3A635800AACB4C /* SCNUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +234,6 @@
 			files = (
 				8E2AB8E81F389BB200E689F1 /* GameViewController.swift in Sources */,
 				8EBEAD2D1F39C52100054C95 /* GameView.swift in Sources */,
-				8E5EFC6A1F3A5E4C00AACB4C /* SCNUtils.swift in Sources */,
 				8E2AB8D61F389B0A00E689F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
