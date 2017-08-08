@@ -31,6 +31,7 @@ class GameViewController: ViewController {
     
     var heroNode: SCNNode!
     var followCameraNode: SCNNode!
+    var friends: Set<SCNNode> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +63,12 @@ class GameViewController: ViewController {
         
         self.heroNode = self.gameScene.rootNode.childNode(withName: "hero", recursively: true)
         self.followCameraNode = self.gameScene.rootNode.childNode(withName: "camera_follow", recursively: true)
+        
+        if let units = self.gameScene.rootNode.childNode(withName: "units", recursively: true) {
+            for unit in units.childNodes where unit.name != "guard" && unit.name != "hero" {
+                self.friends.insert(unit)
+            }
+        }
     }
     
     /* fonctions de receptions d'evenements du jeu */
