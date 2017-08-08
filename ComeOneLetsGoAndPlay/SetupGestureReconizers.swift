@@ -34,23 +34,23 @@ extension GameViewController {
     
     func handleTap(_ gestureRecognize: UIGestureRecognizer) {
         let p = gestureRecognize.location(in: self.view)
-        self.touch(at: p)
+        self.eventTouch(at: p)
     }
     
     func handleSwipeLeft(_ gestureRecognize: UISwipeGestureRecognizer) {
-        self.moveLeft()
+        self.eventLeft()
     }
     
     func handleSwipeRight(_ gestureRecognize: UISwipeGestureRecognizer) {
-        self.moveRight()
+        self.eventRight()
     }
     
     func handleSwipeUp(_ gestureRecognize: UISwipeGestureRecognizer) {
-        self.moveUp()
+        self.eventUp()
     }
     
     func handleSwipeDown(_ gestureRecognize: UISwipeGestureRecognizer) {
-        self.moveDown()
+        self.eventDown()
     }
     
     override var shouldAutorotate: Bool {

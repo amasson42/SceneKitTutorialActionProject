@@ -26,18 +26,17 @@ class GameViewController: ViewController {
     @IBOutlet weak var gameView: GameView!
     #endif
     
+    /* se creer des raccourcis vers la scene et ses nodes */
     var gameScene: SCNScene!
     
-    /* se creer des raccourcis vers les nodes de la scene */
-    var heroNode: SCNNode?
-    var followCameraNode: SCNNode?
+    var heroNode: SCNNode!
+    var followCameraNode: SCNNode!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /* creation de la scene et initialisation des valeurs du jeu */
         self.gameScene = SCNScene(named: "art.scnassets/GameScene.scn")
-        
-        self.setupNodes()
         
         if let scnView = self.view as? SCNView {
             scnView.scene = self.gameScene
@@ -47,6 +46,9 @@ class GameViewController: ViewController {
             scnView.showsStatistics = true
         }
         
+        self.setupNodes()
+        
+        /* gestion des evenements selon la plateforme */
         #if os(iOS)
             self.setupGestureReconizers()
         #endif
@@ -56,40 +58,42 @@ class GameViewController: ViewController {
     }
     
     func setupNodes() {
+        /* initialisation de valeurs que nous ne pouvons pas faire dans l'editeur de scene */
+        
         self.heroNode = self.gameScene.rootNode.childNode(withName: "hero", recursively: true)
         self.followCameraNode = self.gameScene.rootNode.childNode(withName: "camera_follow", recursively: true)
     }
     
-    func touch(at p: CGPoint) {
+    /* fonctions de receptions d'evenements du jeu */
+    func eventTouch(at p: CGPoint) {
         Swift.print(#function, p)
     }
     
-    func moveUp() {
+    func eventUp() {
         Swift.print(#function)
     }
     
-    func moveDown() {
+    func eventDown() {
         Swift.print(#function)
     }
     
-    func moveLeft() {
+    func eventLeft() {
         Swift.print(#function)
     }
     
-    func moveRight() {
+    func eventRight() {
         Swift.print(#function)
     }
+    
 }
 
 extension GameViewController: SCNSceneRendererDelegate {
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         /* Camera following */
-        if let heroNode = self.heroNode,
-            let followCameraNode = self.followCameraNode {
-            let x = heroNode.position.x - followCameraNode.position.x
-            let z = heroNode.position.z - followCameraNode.position.z
-            followCameraNode.position.x += x * 0.05
-            followCameraNode.position.z += z * 0.05
-        }
+        
+        let x = self.heroNode.position.x - self.followCameraNode.position.x
+        let z = self.heroNode.position.z - self.followCameraNode.position.z
+        self.followCameraNode.position.x += x * 0.05
+        self.followCameraNode.position.z += z * 0.05
     }
 }
