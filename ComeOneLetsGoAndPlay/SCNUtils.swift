@@ -1,15 +1,5 @@
 //
 //  SCNUtils.swift
-//  ComeOneLetsGoAndPlay
-//
-//  Created by Arthur Masson on 08/08/2017.
-//  Copyright © 2017 Giantwow. All rights reserved.
-//
-
-import SceneKit
-
-//
-//  SCNUtils.swift
 //  libgeoswift
 //
 //  Created by Arthur Masson on 03/01/2017.
@@ -20,11 +10,11 @@ import SceneKit
 
 extension SCNVector3 { /* as point */
     
-    func distanceWith(point: SCNVector3) -> CGFloat {
+    func distanceWith(point: SCNVector3) -> SCNFloat {
         return sqrt(self.squaredDistanceWith(point: point))
     }
     
-    func squaredDistanceWith(point p: SCNVector3) -> CGFloat {
+    func squaredDistanceWith(point p: SCNVector3) -> SCNFloat {
         return (self.x - p.x) * (self.x - p.x) + (self.y - p.y) * (self.y - p.y) + (self.z - p.z) * (self.z - p.z)
     }
     
@@ -51,7 +41,7 @@ extension SCNVector3 { /* as vector */
     
     /* Getters */
     
-    var norme: CGFloat {
+    var norme: SCNFloat {
         get {
             return sqrt(self.squaredNorme)
         }
@@ -63,7 +53,7 @@ extension SCNVector3 { /* as vector */
         }
     }
     
-    var squaredNorme: CGFloat {
+    var squaredNorme: SCNFloat {
         get {
             return self.x * self.x + self.y * self.y + self.z * self.z
         }
@@ -94,7 +84,7 @@ extension SCNVector3 { /* as vector */
             && self.z * v.z == self.x * v.z
     }
     
-    func scalar(vector v: SCNVector3) -> CGFloat {
+    func scalar(vector v: SCNVector3) -> SCNFloat {
         return self.x * v.x + self.y * v.y + self.z * v.z
     }
     
@@ -102,14 +92,14 @@ extension SCNVector3 { /* as vector */
         return SCNVector3(vectorialProduce: self, v)
     }
     
-    func rotate(vector v: SCNVector3, by alpha: CGFloat) -> SCNVector3 {
+    func rotate(vector v: SCNVector3, by alpha: SCNFloat) -> SCNVector3 {
         return SCNMatrix4(rotaxe: self, alpha: alpha).transform(vector: v)
     }
     
     /* Methodes */
     
     mutating func normalize() {
-        let norme: CGFloat = self.norme
+        let norme: SCNFloat = self.norme
         self.x /= norme
         self.y /= norme
         self.z /= norme
@@ -138,13 +128,13 @@ func -=(lhs: inout SCNVector3, rhs: SCNVector3) {
     lhs.z -= rhs.z
 }
 
-func *=(lhs: inout SCNVector3, rhs: CGFloat) {
+func *=(lhs: inout SCNVector3, rhs: SCNFloat) {
     lhs.x *= rhs
     lhs.y *= rhs
     lhs.z *= rhs
 }
 
-func /=(lhs: inout SCNVector3, rhs: CGFloat) {
+func /=(lhs: inout SCNVector3, rhs: SCNFloat) {
     lhs.x /= rhs
     lhs.y /= rhs
     lhs.z /= rhs
@@ -162,25 +152,25 @@ func -(lhs: SCNVector3, rhs: SCNVector3) -> SCNVector3 {
     return r
 }
 
-func *(lhs: CGFloat, rhs: SCNVector3) -> SCNVector3 {
+func *(lhs: SCNFloat, rhs: SCNVector3) -> SCNVector3 {
     var r = rhs
     r *= lhs
     return r
 }
 
-func *(lhs: SCNVector3, rhs: CGFloat) -> SCNVector3 {
+func *(lhs: SCNVector3, rhs: SCNFloat) -> SCNVector3 {
     var r = lhs
     r *= rhs
     return r
 }
 
-func /(lhs: SCNVector3, rhs: CGFloat) -> SCNVector3 {
+func /(lhs: SCNVector3, rhs: SCNFloat) -> SCNVector3 {
     var r = lhs
     r /= rhs
     return r
 }
 
-func *(lhs: SCNVector3, rhs: SCNVector3) -> CGFloat {
+func *(lhs: SCNVector3, rhs: SCNVector3) -> SCNFloat {
     return lhs.scalar(vector: rhs)
 }
 
@@ -334,7 +324,7 @@ extension SCNMatrix4 {
         (self.m41, self.m42, self.m43, self.m44) = (0, 0, 0, 1)
     }
     
-    init(rotx alpha: CGFloat) {
+    init(rotx alpha: SCNFloat) {
         let s = sin(alpha)
         let c = cos(alpha)
         (self.m11, self.m12, self.m13) = (1, 0, 0)
@@ -344,7 +334,7 @@ extension SCNMatrix4 {
         (self.m41, self.m42, self.m43, self.m44) = (0, 0, 0, 1)
     }
     
-    init(roty alpha: CGFloat) {
+    init(roty alpha: SCNFloat) {
         let s = sin(alpha)
         let c = cos(alpha)
         (self.m11, self.m12, self.m13) = (c, 0, s)
@@ -354,7 +344,7 @@ extension SCNMatrix4 {
         (self.m41, self.m42, self.m43, self.m44) = (0, 0, 0, 1)
     }
     
-    init(rotz alpha: CGFloat) {
+    init(rotz alpha: SCNFloat) {
         let s = sin(alpha)
         let c = cos(alpha)
         (self.m11, self.m12, self.m13) = (c, -s, 0)
@@ -364,7 +354,7 @@ extension SCNMatrix4 {
         (self.m41, self.m42, self.m43, self.m44) = (0, 0, 0, 1)
     }
     
-    init(rotaxe axe: SCNVector3, alpha: CGFloat) {
+    init(rotaxe axe: SCNVector3, alpha: SCNFloat) {
         let norme = axe.norme
         let x = axe.x / norme;
         let y = axe.y / norme;
@@ -452,7 +442,7 @@ func *=(lhs: inout SCNMatrix4, rhs: SCNMatrix4) {
     lhs = lhs.transform(matrix: rhs)
 }
 
-func *=(lhs: inout SCNMatrix4, rhs: CGFloat) {
+func *=(lhs: inout SCNMatrix4, rhs: SCNFloat) {
     lhs.m11 *= rhs
     lhs.m12 *= rhs
     lhs.m13 *= rhs
@@ -471,7 +461,7 @@ func *=(lhs: inout SCNMatrix4, rhs: CGFloat) {
     lhs.m44 *= rhs
 }
 
-func /=(lhs: inout SCNMatrix4, rhs: CGFloat) {
+func /=(lhs: inout SCNMatrix4, rhs: SCNFloat) {
     lhs.m11 /= rhs
     lhs.m12 /= rhs
     lhs.m13 /= rhs
@@ -522,19 +512,19 @@ func *(lhs: SCNMatrix4, rhs: SCNMatrix4) -> SCNMatrix4 {
     return lhs.transform(matrix: rhs)
 }
 
-func *(lhs: SCNMatrix4, rhs: CGFloat) -> SCNMatrix4 {
+func *(lhs: SCNMatrix4, rhs: SCNFloat) -> SCNMatrix4 {
     var r = lhs
     r *= rhs
     return r
 }
 
-func *(lhs: CGFloat, rhs: SCNMatrix4) -> SCNMatrix4 {
+func *(lhs: SCNFloat, rhs: SCNMatrix4) -> SCNMatrix4 {
     var r = rhs
     r *= lhs
     return r
 }
 
-func /(lhs: SCNMatrix4, rhs: CGFloat) -> SCNMatrix4 {
+func /(lhs: SCNMatrix4, rhs: SCNFloat) -> SCNMatrix4 {
     var r = lhs
     r /= rhs
     return r
